@@ -41,6 +41,7 @@ img{
     float: left;
     width: calc((100% / 3) - (90px / 3));
     background-color: rgb(15, 14, 24);
+    box-shadow: 10px 6px 11px #888888;
 }
 
 .box:not(:last-child) {
@@ -57,6 +58,11 @@ img{
 
 .info-team>div{
     color: white;
-    padding: 8px 0px;
+    padding: 6px 0px;
 
+}
+
+div>a{
+    text-decoration: none;
+    color: rgb(86, 190, 218);
 }
