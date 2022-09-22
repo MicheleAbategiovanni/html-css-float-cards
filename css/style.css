@@ -48,3 +48,16 @@ img{
     margin-bottom: 30px;
   }
 
+.info-team{
+    display: inline-block;
+    text-align: initial;
+    float: left;
+    padding: 5px 10px;
+}
+
+
+.info-team>div{
+    color: white;
+    padding: 8px 0px;
+
+}
