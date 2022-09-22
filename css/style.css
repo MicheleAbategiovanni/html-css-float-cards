@@ -5,12 +5,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+header,
+header::after{
     color: rgb(229, 50, 112);
     font-weight: bolder;
     text-align: center;
     padding: 20px;
     font-size: 45px;
+    content: "Meet Our Team";
 }
 
 section{
