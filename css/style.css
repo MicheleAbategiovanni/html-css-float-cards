@@ -12,7 +12,39 @@ h1{
     padding: 40px;
 }
 
+section{
+    padding: 30px;
+    text-align: center;
+}
+
+img{
+    float: left;
+    height: 100px;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .container{
     margin: auto;
     width: 1200px;
 }
+
+.box{
+    float: left;
+    width: calc((100% / 3) - (90px / 3));
+    background-color: rgb(15, 14, 24);
+}
+
+.box:not(:last-child) {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
