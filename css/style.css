@@ -11,3 +11,8 @@ h1{
     text-align: center;
     padding: 40px;
 }
+
+.container{
+    margin: auto;
+    width: 1200px;
+}
